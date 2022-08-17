@@ -31,6 +31,16 @@ public class Cliente {
     @Column(nullable = false)
     private String email;
 
+    // private Categoria categoria;
+
+    // public void setCategoria(Categoria categoria) {
+    //     this.categoria = categoria;
+    // }
+
+    // public Categoria getCategoria() {
+    //     return categoria;
+    // }
+
     public Long getId() {
         return id;
     }
